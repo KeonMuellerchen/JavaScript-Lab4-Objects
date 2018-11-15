@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+  <head>
+    <!-- Third-Party CDNs -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+    <title>Lab 04 - Objects</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="my-5">
+        <h1>Lab 04 - Objects</h1>
+      </header>
+
+      <p style="color: red;">
+        <strong>INSTRUCTIONS:</strong> Complete the steps below as instructed and submit either the main.js file or the GitHub repo link by Sunday at midnight.
+      </p>
+      
+      <section id="storyteller">
+        <table class="table">
+          <tbody>
+            <tr>
+              <th>Storyteller's Name</th>
+              <td class="name"></td>
+            </tr>
+            <tr>
+              <th>Storyteller's Address</th>
+              <td class="address"></td>
+            </tr>
+            <tr>
+              <th>Storyteller's Bio</th>
+              <td class="bio"></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="row">
+        <div id="playerOne" class="col-sm-6">
+          <table class="table">
+            <tbody>
+              <tr>
+                <th>Character Name</th>
+                <td class="name"></td>
+              </tr>
+              <tr>
+                <th>Character Class</th>
+                <td class="className"></td>
+              </tr>
+              <tr>
+                <th>Character Level</th>
+                <td class="level"></td>
+              </tr>
+              <tr>
+                <th>Character Bio</th>
+                <td class="bio"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div id="playerTwo" class="col-sm-6">
+          <table class="table">
+            <tbody>
+              <tr>
+                <th>Character Name</th>
+                <td class="name"></td>
+              </tr>
+              <tr>
+                <th>Character Class</th>
+                <td class="className"></td>
+              </tr>
+              <tr>
+                <th>Character Level</th>
+                <td class="level"></td>
+              </tr>
+              <tr>
+                <th>Character Bio</th>
+                <td class="bio"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <hr>
+      
+      <section>
+        <header class="my-5">
+          <h2>Part One</h2>
+        </header>
+
+        <ol>
+          <li>Create a new object called <strong>storyteller</strong></li>
+          <li>Give the storyteller object a property called <strong>name</strong> with a value</li>
+          <li>Give the storyteller object a property called <strong>address</strong> with a value</li>
+          <li>Give the storyteller object a property called <strong>bio</strong> with a function definition that returns the following string:<br><strong>`${name} lives at ${address} and is a great storyteller.`</strong></li>
+          <li>Using the DOM techniques you learned last week, fill out the Storyteller's information in the provided table.</li>
+        </ol>
+      </section>
+      
+      <hr>
+
+      <section>
+        <header class="my-5">
+          <h2>Part Two</h2>
+        </header>
+
+        <ol start="6">
+          <li>Create an object constructor called <strong>Player</strong> that takes 3 arguments: <strong>name, className,</strong>and <strong>level</strong></li>
+          <li>Give the constructor the following 3 properties: <strong>name, class, and level</strong></li>
+          <li>Give the constructor a bio property with a function definition that returns the following string<br><strong>`${name} is a world class ${className} at the bolstering level of ${level}!`</strong></li>
+          <li>Create 2 new players called <strong>playerOne</strong> and playerTwo with whatever values you want.</li>
+          <li>Using the DOM techniques you learned last week, fill out the player's information in the provided tables for each player.</li>
+        </ol>
+      </section>
+
+      <hr>
+    </div>
+
+    <footer class="my-5"></footer>
+    
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+  </body>
+  
+</html>
